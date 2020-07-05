@@ -99,6 +99,6 @@ for i in range(0, detections.shape[2]):
 # show the output image
 img_name = args["image"].split(".")
 
-cv2.imwrite(img_name[0] + "_output.png", image) 
+cv2.imwrite("output.png", image) 
 #cv2.imshow("Output", image)
 #cv2.waitKey(0)
